@@ -1,6 +1,6 @@
 def word_substituter(tweet)
   dictionary.each do |key, val|
-    tweet = tweet.gsub(/(?<one>[!,.\s?])(#{key})(?<two>[!,.\s?])/,  \val + $3)
+    tweet = tweet.gsub(/(?<one>[!,.\s?])(#{key})(?<two>[!,.\s?])/,  \k<one>val + $3)
   end 
   return tweet
 end
