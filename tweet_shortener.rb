@@ -2,6 +2,7 @@ def word_substituter(tweet)
   dictionary.each do |key, val|
     tweet = tweet.gsub(key,val)
   end
+  return tweet
 end
 
 def dictionary()
