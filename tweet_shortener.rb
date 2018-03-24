@@ -1,8 +1,8 @@
+#options: gsub - replaces too much, includes false positves
+#option 2: really heavy, eliminate false positives, check each check by each word (bleh)
+
 def word_substituter(tweet)
-  dictionary.each do |key, val|
-    tweet = tweet.gsub(key,val)
-  end
-  return tweet
+  realHeavy = tweet.split
 end
 
 def dictionary()
