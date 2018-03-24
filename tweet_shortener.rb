@@ -1,6 +1,6 @@
 def word_substituter(tweet)
   dictionary.each do |key, val|
-    
+    tweet = tweet.gsub(key,)
   end
 end
 
