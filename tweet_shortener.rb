@@ -29,7 +29,7 @@ def dictionary()
        dic[key.capitalize] = val
      end
     
-    
+    return dic
     
     
     
