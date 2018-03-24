@@ -30,7 +30,7 @@ def dictionary()
        dic2[key.capitalize] = val
      end
     
-    return dic
+    return dic.merge(dic2)
     
     
     
