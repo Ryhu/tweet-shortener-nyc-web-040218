@@ -5,7 +5,7 @@ def word_substituter(tweet)
   return tweet
 end
 
-def bulk_tweet_shortner(tweets)
+def bulk_tweet_shortener(tweets)
   tweets.each do |twat|
     print word_substituter(twat)
   end
