@@ -1,6 +1,7 @@
 def word_substituter(tweet)
-  expensive = tweet.split
-  
+  dictionary.each do |key, val|
+    
+  end
 end
 
 def dictionary()
