@@ -14,7 +14,7 @@ end
 
 
 def dictionary()
-  { "hello" => 'hi',
+  dic = { "hello" => 'hi',
     "to"  => '2' ,
     "two"  => '2' ,
     "too" => '2' ,
@@ -24,4 +24,13 @@ def dictionary()
     'you' => 'u',
     "at" => "@" ,
     "and" => "&"}
+    
+     dic.each do |key, val|
+       dic[key.capitalize] = val
+     end
+    
+    
+    
+    
+    
 end
